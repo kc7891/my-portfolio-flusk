@@ -1,0 +1,59 @@
+body {
+  font-size : 19px;
+  overflow-x : hidden;
+}
+#profile {
+  background-color: #1CA4FC;
+  color : white;
+  padding: 0 0 45px;
+}
+#profile h1 {
+  color : white;
+}
+#history {
+  background-color : #778ca3;
+}
+#history * {
+  color : white;
+}
+.right-triangle {
+  width: 0;
+  height: 0;
+  border-left: 2000px solid transparent;
+  border-bottom: 70px solid #1CA4FC;
+}
+.right-triangle-reverse {
+  width: 0;
+  height: 0;
+  border-left: 2000px solid transparent;
+  border-top: 70px solid #1CA4FC;
+}
+.skills {
+  padding-top : 10px;
+}
+.skills span {
+  display: inline-block;
+  border: 1px solid #6a6a6a;
+  border-radius: 3px;
+  padding: 0 5px;
+  font-size: 16px;
+  color: #6a6a6a;
+  line-height: 1.5;
+  margin-right: 3px;
+  margin-bottom : 3px;
+}
+.bigSkill {
+  display: inline-block;
+  border: 1px solid #6a6a6a;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 30px;
+  color: #6a6a6a;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.skills.white span,
+.bigSkill.white {
+  border-color : white;
+  color : white;
+}
