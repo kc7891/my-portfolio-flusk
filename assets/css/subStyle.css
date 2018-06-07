@@ -10,11 +10,18 @@ body {
 #profile h1 {
   color : white;
 }
+#profile-image {
+  max-width: 293px;
+  margin : -20px 0 10px 20px;
+}
 #history {
   background-color : #778ca3;
 }
 #history * {
   color : white;
+}
+#header.header-wrapper {
+  min-height : 10vh;
 }
 .right-triangle {
   width: 0;
