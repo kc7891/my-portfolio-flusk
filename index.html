@@ -25,6 +25,8 @@
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/css/style.css" media="screen"/>
 		<link rel="stylesheet" href="assets/css/subStyle.css"/>
+		<link rel="stylesheet" href="assets/css/timeline/style.css"/>
+
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -52,19 +54,10 @@
 						<a href="#portfolio"><i class="fa fa-bookmark"></i> Portfolio</a>
 					</li>
 					<li>
-						<a href="#services"><i class="fa fa-tasks"></i> Services</a>
+						<a href="#services"><i class="fa fa-tasks"></i> Skills</a>
 					</li>
 					<li>
-						<a href="#blog"><i class="fa fa-wordpress"></i> Blog</a>
-					</li>
-					<li>
-						<a href="#parallax"><i class="fa fa-heart"></i> Parallax</a>
-					</li>
-					<li>
-						<a href="#testimonials"><i class="fa fa-thumbs-up"></i> Testimonials</a>
-					</li>
-					<li>
-						<a href="#contact"><i class="fa fa-phone-square"></i> Contact</a>
+						<a href="#blog"><i class="fa fa-wordpress"></i> History</a>
 					</li>
 				</ul>
 			</nav>
@@ -101,10 +94,10 @@
 							</div>
 							<div class="col-xs-12 col-sm-6 col-sm-pull-3">
 								<h1>Profile</h1>
-								<div class="date">6 Jun, 2018</div>
+								<div class="date">6 Jun 2018</div>
 								<li>Name : 千葉 健登 (Kento Chiba)</li>
 								<li>Gender : Male</li>
-								<li>Date of birth : 7 Jul, 1991</li>
+								<li>Date of birth : 7 Jul 1991</li>
 								<li>Location : Tokyo, Japan</li>
 								<div class="skills white">
 									<span>Running</span>
@@ -235,19 +228,80 @@
 				</div>
 			</div><!-- #future-skills -->
 
-			<div class="content-block parallax" id="history">
-				<div class="container">
-					<header class="block-heading cleafix">
-						<!--<h1>My History</h1>-->
-					</header>
-					<section class="block-body">
-						<div class="row">
-							<div class="col-sm-12">
+			<section class="cd-timeline js-cd-timeline" id="history">
+				<div class="cd-timeline__container">
+
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--resign js-cd-img">
+							<i class="fa fa-university fa-2x"></i>
+						</div> <!-- cd-timeline__img -->
+
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Graduate Tokyo Keizai University</h2>
+							<h4>Major：経営学部・経営学科</h4>
+							<h4>Seminar：<a href="https://sites.google.com/a/tku.ac.jp/morioka-semi/concept" target="_blank">Marketing Seminar</a></h4>
+							<span class="cd-timeline__date">31 Mar 2014 </span>
+						</div> <!-- cd-timeline__content -->
+					</div> <!-- cd-timeline__block -->
+
+					<div class="cd-timeline__block js-cd-block">
+						<!-- <h1>History</h1> -->
+						<div class="cd-timeline__img cd-timeline__img--check js-cd-img">
+							<i class="fa fa-check fa-2x white"></i>
+						</div> <!-- cd-timeline__img -->
+
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Joined company R（SIer）</h2>
+							<h4>実績</h4>
+							<h4>Web（Java,JS,css）</h4>
+							<div class="list">
+								<li>受発注オンラインシステム</li>
+								<li>人事管理システム</li>
+								<li>商品マスタ管理システム</li>
+								<li>社内向けポータルサイト</li>
 							</div>
-						</div>
-					</section>
+							<h4>Batch</h4>
+							<li>データ連携バッチリプレイス（VB6,Java）</li>
+							<li>データ連携バッチ（C#）</li>
+							<li>データ集計バッチ（Java）</li>
+							<span class="cd-timeline__date">1 Apr 2014</span>
+						</div> <!-- cd-timeline__content -->
+					</div> <!-- cd-timeline__block -->
+
+					<div class="cd-timeline__block js-cd-block">
+						<div class="cd-timeline__img cd-timeline__img--resign js-cd-img">
+							<i class="fa fa-sign-out fa-2x"></i>
+						</div> <!-- cd-timeline__img -->
+
+						<div class="cd-timeline__content js-cd-content">
+							<h2>Resign company R</h2>
+							<h4>目的</h4>
+							<div class="list">
+								<li>スキルアップ
+									<ul>
+										<li>React</li>
+										<li>React Native</li>
+										<li>Git</li>
+										<li>Agile Development(ex TDD)</li>
+										など
+									</ul>
+								</li>
+								<li>業種の変更</li>
+							</div>
+							<span class="cd-timeline__date">31 May 2018 </span>
+						</div> <!-- cd-timeline__content -->
+					</div> <!-- cd-timeline__block -->
 				</div>
-			</div><!-- #history -->
+			</section> <!-- cd-timeline -->
+
+			<div class="content-block" id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6">&copy; Copyright Kento Chiba 2018</div>
+						<div class="col-xs-6 text-right">Theme by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></div>
+					</div>
+				</div>
+			</div><!-- #footer -->
 
 		</div><!--/#wrapper-->
 
@@ -257,6 +311,7 @@
 		<script src="assets/js/jquery.actual.min.js"></script>
 		<script src="assets/js/jquery.scrollTo.min.js"></script>
 		<script src="assets/js/script.js"></script>
+		<script src="assets/js/timeline/main.js"></script>
 
 	</body>
 </html>
