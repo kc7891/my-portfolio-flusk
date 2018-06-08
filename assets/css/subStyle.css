@@ -42,6 +42,9 @@ body {
   border-left: 2000px solid transparent;
   border-top: 70px solid #1CA4FC;
 }
+.recent-work {
+  max-width: 100vw;
+}
 .skills {
   padding-top : 10px;
 }
@@ -70,4 +73,7 @@ body {
 .bigSkill.white {
   border-color : white;
   color : white;
+}
+.sandWitchMenu {
+  color: #d1d8e0;
 }
